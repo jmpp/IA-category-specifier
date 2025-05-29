@@ -1,0 +1,88 @@
+.offerForm {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input,
+.textarea,
+.select {
+  padding: 0.7rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: border 0.2s;
+}
+.input:focus,
+.textarea:focus,
+.select:focus {
+  border: 1.5px solid #6366f1;
+  outline: none;
+  background: #fff;
+}
+
+.textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.aiSuggestion {
+  background: #f1f5f9;
+  border-left: 4px solid #6366f1;
+  padding: 1rem 1.2rem;
+  border-radius: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.suggestionHeader {
+  font-weight: 600;
+  color: #6366f1;
+  margin-bottom: 0.3rem;
+}
+.suggestionContent {
+  font-size: 0.98rem;
+  margin-bottom: 0.7rem;
+}
+.suggestionButton {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.suggestionButton:hover {
+  background: #4338ca;
+}
+
+.loading {
+  color: #6366f1;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  text-shadow: 0 2px 12px rgba(99, 102, 241, 0.18), 0 1px 0 #fff;
+}
