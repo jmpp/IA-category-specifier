@@ -1,3 +1,5 @@
+import type { Category, Subcategory } from "../commons/types";
+
 export const categories = [
   { id: "BEAUX_ARTS", proLabel: "Beaux-arts", isSelectable: true },
   { id: "CARTE_JEUNES", proLabel: "Carte jeunes", isSelectable: true },
@@ -1356,3 +1358,13 @@ export const subcategories = [
     canHaveOpeningHours: false,
   },
 ];
+
+export const getCategoryById = (categoryId: string): Category | null => {
+  return categories.find((c) => c.id === categoryId) ?? null;
+};
+
+export const getSubcategoryById = (
+  subcategoryId: string
+): Subcategory | null => {
+  return subcategories.find((s) => s.id === subcategoryId) ?? null;
+};

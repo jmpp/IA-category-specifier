@@ -1,9 +1,10 @@
-import { OfferForm } from "./components/OfferForm";
+import { OfferFormGPT } from "./components/OfferFormGPT";
 
 function App() {
   return (
     <>
-      <OfferForm />
+      {/* <OfferForm /> */}
+      <OfferFormGPT />
     </>
   );
 }
