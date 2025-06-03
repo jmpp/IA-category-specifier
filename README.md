@@ -1,5 +1,7 @@
 # IA Category Specifier
 
+<div align="center"><img src="https://github.com/user-attachments/assets/e743992d-c3c6-4390-9299-d2fecf9d64d3" width="450" /></div>
+
 This is a POC for a project that will be used to specify the **category** and **sub-category** of a product based on its title and description.
 
 Both approaches are implemented here in 2 differents components :
